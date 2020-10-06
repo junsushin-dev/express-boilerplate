@@ -4,6 +4,7 @@
   "private": true,
   "main": "src/index.html",
   "scripts": {
+    "dev": "webpack-dev-server",
     "build": "webpack"
   },
   "devDependencies": {
@@ -17,7 +18,8 @@
     "html-webpack-plugin": "^4.4.1",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "core-js": "^3.6.5"
